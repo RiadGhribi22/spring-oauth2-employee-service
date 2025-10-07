@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "rest.security",
+      "type": "org.arun.springoauth.employee.config.SecurityProperties",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties"
+    },
+    {
+      "name": "rest.security.cors",
+      "type": "org.arun.springoauth.employee.config.SecurityProperties$Cors",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties",
+      "sourceMethod": "public org.arun.springoauth.employee.config.SecurityProperties.Cors getCors() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "rest.security.api-matcher",
+      "type": "java.lang.String",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties"
+    },
+    {
+      "name": "rest.security.cors.allow-credentials",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.cors.allowed-headers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.cors.allowed-methods",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.cors.allowed-origins",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.cors.exposed-headers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.cors.max-age",
+      "type": "java.lang.Long",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties$Cors"
+    },
+    {
+      "name": "rest.security.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties"
+    },
+    {
+      "name": "rest.security.issuer-uri",
+      "type": "java.lang.String",
+      "sourceType": "org.arun.springoauth.employee.config.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
